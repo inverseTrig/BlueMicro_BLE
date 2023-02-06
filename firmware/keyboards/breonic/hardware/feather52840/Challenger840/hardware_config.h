@@ -12,7 +12,10 @@
 #define DIODE_DIRECTION COL2RO
 
 #define BATTERY_TYPE BATT_LIPO
-#define VBAT_PIN  30
+#define VBAT_PIN 30
+
+#define VCC_PIN 41
+#define VCC_POLARITY_ON 1
 
 #define  STATUS_BLE_LED_PIN 26 // LED1 GREEN
 #define  BLE_LED_ACTIVE 1
